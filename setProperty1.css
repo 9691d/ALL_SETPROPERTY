@@ -1,7 +1,29 @@
+:root{
+    --gray: gray;
+    --black: black;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html::-webkit-scrollbar {
+    width: 15px;
+    height: 25px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--gray);
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--black);
+}
+
+body{
+    height: 150vh;
+    width: 150vw;
 }
 
 .wrap_box2{
