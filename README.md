@@ -1,0 +1,2 @@
+# ALL_SETPRORERTY
+training
